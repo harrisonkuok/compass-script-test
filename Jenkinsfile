@@ -20,18 +20,17 @@ pipeline {
             }
         }
 
-        // stage ('Checkout') {
-        //     steps {
-        //         dir (SOURCE_DIR) {
-        //             checkout scm
-        //         }
-        //     }
-        // }
+        stage ('Checkout') {
+            steps {
+                dir (SOURCE_DIR) {
+                    checkout scm
+                }
+            }
+        }
 
         stage ('Python Script') {
             steps {
                 script {
-                    bat 'ls'
                     bat 'python --version'
                 }
             }
