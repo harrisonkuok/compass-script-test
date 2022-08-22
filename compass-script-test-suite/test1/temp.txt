@@ -1,0 +1,7 @@
+runFile = "C:\Users\harrison.kuok\Desktop\compass-script-test-suite\test1\Jess_Chemi.cbz"
+exportDir = "C:\Users\harrison.kuok\Desktop\compass-script-test-suite\test1"
+open(runFile)
+peakadd(2, 3.3)
+export(exportDir)
+close("ALL FORCE CLOSE")
+exit()

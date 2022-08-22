@@ -6,16 +6,14 @@ pipeline {
         
         stage ('Clean Before') {
             steps {
-                script {
-                    try {
-    	                dir (SOURCE_DIR) {
-        	            bat 'git clean -fdx'
-        	            bat 'git reset --hard'
-                        }
+                try {
+                    dir (SOURCE_DIR) {
+                    bat 'git clean -fdx'
+                    bat 'git reset --hard'
                     }
-                    catch (err) {
-                        echo "clean failed, there probably is nothing to clean. ${err}"
-                    }
+                }
+                catch (err) {
+                    echo "clean failed, there probably is nothing to clean. ${err}"
                 }
             }
         }
@@ -31,8 +29,8 @@ pipeline {
 
         stage ('Python Script') {
             steps {
-                script {
-                    bat 'python --version'
+                dir (SOURCE_DIR) {
+                    bat 'python hello.py'
                 }
             }
         }
