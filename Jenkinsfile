@@ -19,9 +19,6 @@ pipeline {
         stage ('Clean Before') {
             steps {
                 cleanRepo SOURCE_DIR
-                dir (SOURCE_DIR) {
-                    bat 'dir'
-                }
             }
         }
 
@@ -29,7 +26,6 @@ pipeline {
             steps {
                 dir (SOURCE_DIR) {
                     checkout scm
-                    bat 'dir'
                 }
             }
         }
@@ -37,15 +33,7 @@ pipeline {
         stage ('Python Script') {
             steps {
                 dir (SOURCE_DIR) {
-                    bat 'python hello.py'
-                }
-            }
-        }
-
-        stage ('Clean After') {
-            steps {
-                cleanRepo SOURCE_DIR
-                dir (SOURCE_DIR) {
+                    bat 'cd ../Compass(trunk)/source/com.proteinsimple.compass.e4.product/target'
                     bat 'dir'
                 }
             }
