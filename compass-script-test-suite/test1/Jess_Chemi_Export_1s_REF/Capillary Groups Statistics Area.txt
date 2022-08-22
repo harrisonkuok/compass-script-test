@@ -1,8 +1,0 @@
-groupID	Sample	Primary	Secondary	# Caps	"RACK1"	Std.Dev.	%CV	SEM	Channel	"FTO"	Std.Dev.	%CV	SEM	Channel	"elF2a1"	Std.Dev.	%CV	SEM	Channel	"elF2a2"	Std.Dev.	%CV	SEM	Channel	"MettL14"	Std.Dev.	%CV	SEM	Channel	"bActin"	Std.Dev.	%CV	SEM	Channel	"MettL3"	Std.Dev.	%CV	SEM	Channel	"S3"	Std.Dev.	%CV	SEM	Channel	"CFTR_1"	Std.Dev.	%CV	SEM	Channel	"CFTR_2"	Std.Dev.	%CV	SEM	Channel	"NPT"	Std.Dev.	%CV	SEM	Channel
-"80S-S3-rabbit"	"80S" (1)	"S3"	"rabbit"	1																																				38510.442				CHEMI															
-"CFB-CFTR-Mouse"	"CFB" (1)	"CFTR"	"Mouse"	1																																									4714185.787				CHEMI	4175244.685				CHEMI					
-"CFB-NPT-rabbit"	"CFB" (1)	"NPT"	"rabbit"	1																																																			478715.286				CHEMI
-"SKOV un-RACK1/FTO-rabbit"	"SKOV un" (2)	"RACK1/FTO"	"rabbit"	2	1115127.968	155505	13.9	109959	CHEMI	1006203.197	122259	12.2	86450	CHEMI																																													
-"SKOV un-S3-rabbit"	"SKOV un" (1)	"S3"	"rabbit"	1																																				36323.573				CHEMI															
-"SKOV un-bActin/MettL3-20XRabbit/Mouse"	"SKOV un" (2)	"bActin/MettL3"	"20XRabbit/Mouse"	2																										9167307.914	2862888	31.2	2024368	CHEMI	957679.89	570554	59.6	403443	CHEMI																				
-"SKOV un-eIF2a/MettL14-rabbit"	"SKOV un" (2)	"eIF2a/MettL14"	"rabbit"	2											3138713.954	1123923	35.8	794734	CHEMI	827795.745	1170680	141.4	827796	CHEMI	2003259.111	327468	16.3	231555	CHEMI																														

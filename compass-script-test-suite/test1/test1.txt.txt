@@ -1,7 +1,0 @@
-runFile = "{RunFile}"
-exportDir = "{ExportDir}"
-open(runFile)
-peakadd(2, 3.3)
-export(exportDir)
-close("ALL FORCE CLOSE")
-exit()
