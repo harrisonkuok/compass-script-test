@@ -33,7 +33,7 @@ pipeline {
         stage ('Python Script') {
             steps {
                 dir (SOURCE_DIR) {
-                    bat 'cd ../Compass(trunk)/source/com.proteinsimple.compass.e4.product/target'
+                    bat 'cd ../../Compass(trunk)/source/com.proteinsimple.compass.e4.product/target'
                     bat 'dir'
                 }
             }
