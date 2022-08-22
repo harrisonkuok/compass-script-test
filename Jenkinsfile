@@ -23,6 +23,7 @@ pipeline {
         stage ('Checkout') {
             steps {
                 dir (SOURCE_DIR) {
+                    bat 'dir'
                     checkout scm
                 }
             }
