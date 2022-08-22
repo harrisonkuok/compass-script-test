@@ -32,8 +32,7 @@ pipeline {
 
         stage ('Python Script') {
             steps {
-                dir (SOURCE_DIR) {
-                    bat 'cd ../../Compass(trunk)'
+                dir ('../Compass(trunk)') {
                     bat 'dir'
                 }
             }
