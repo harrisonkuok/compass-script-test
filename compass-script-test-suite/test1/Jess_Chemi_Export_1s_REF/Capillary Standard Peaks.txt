@@ -1,0 +1,26 @@
+Sample	Attribute	Primary	Attribute	Secondary	Scdry Attr	Cap	"Std 1"	"Std 29"	"Std 230"
+"Biot. Ladder"	""	"Blocking"	""	"Streptavidin HRP"	""	1	162.4	307.0	552.0
+"SKOV un"	"pur"	"RACK1/FTO"	"1:50/1:50"	"rabbit"	""	2	183.1	287.9	539.1
+"SKOV un"	"1:2"	"RACK1/FTO"	"1:50/1:50"	"rabbit"	""	3	155.7	282.9	535.8
+"SKOV un"	"pur"	"eIF2a/MettL14"	"1:50/1:50"	"rabbit"	""	4	177.8	283.9	537.0
+"SKOV un"	"1:2"	"eIF2a/MettL14"	"1:50/1:50"	"rabbit"	""	5	151.6	279.9	531.9
+"SKOV un"	"pur"	"bActin/MettL3"	"1:50/1:25"	"20XRabbit/Mouse"	"1:19"	6	176.7	282.9	539.9
+"SKOV un"	"1:2"	"bActin/MettL3"	"1:50/1:25"	"20XRabbit/Mouse"	"1:19"	7	150.5	279.9	532.9
+"SKOV un"	"pur"	"bActin"	"1:50"	"Mouse"	""	8	176.4	282.8	539.0
+"80S"	"pur"	"bActin"	"1:50"	"Mouse"	""	9	238.4	277.8	528.9
+"80S"	"1:500"	"RACK1"	"1:50"	"rabbit"	""	10	131.2	280.9	527.0
+"SKOV un"	"pur"	"RACK1"	"1:50"	"rabbit"	""	11	175.4	282.8	539.0
+"SKOV un"	"pur"	"S3"	"1:50"	"rabbit"	""	12	173.4	281.9	541.9
+"80S"	"pur"	"S3"	"1:50"	"rabbit"	""	13	236.3	277.9	529.9
+"80S"	"pur"	"eEF1A2"	"1:50"	"Mouse"	""	14	233.6	276.9	529.8
+"SKOV un"	"pur"	"eIF2a"	"1:50"	"rabbit"	""	15	173.5	280.9	539.0
+"SKOV un"	"1:10"	"ALKBH5"	"1:50"	"rabbit"	""	16	137.3	280.9	528.0
+"SKOV un"	"1:2"	"ALKBH5"	"1:50"	"rabbit"	""	17	152.3	280.0	532.0
+"SKOV un"	"1:10"	"FTO"	"1:50"	"rabbit"	""	18	138.4	280.9	527.1
+"SKOV un"	"1:2"	"FTO"	"1:50"	"rabbit"	""	19	150.9	280.8	533.0
+"SKOV un"	"1:2"	"MettL3"	"1:25"	"rabbit"	""	20	151.8	280.9	533.0
+"SKOV un"	"1:10"	"MettL14"	"1:50"	"rabbit"	""	21	138.7	282.9	530.0
+"SKOV un"	"1:2"	"MettL14"	"1:50"	"rabbit"	""	22	156.8	284.9	533.2
+"SKOV un"	"1:2"	"WTAP"	"1:100"	"Mouse"	""	23	159.0	286.9	536.9
+"CFB"	"pur"	"CFTR"	"1:50"	"Mouse"	""	24	179.8	287.9	539.9
+"CFB"	"pur"	"NPT"	"1:50"	"rabbit"	""	25	181.9	290.0	539.9

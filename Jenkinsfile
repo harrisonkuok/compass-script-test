@@ -32,8 +32,9 @@ pipeline {
 
         stage ('Python Script') {
             steps {
-                dir ('../Compass(trunk)/source/com.proteinsimple.compass.e4.product/target/products/compass/win32/win32/x86_64') {
-                    bat 'dir'
+                dir (SOURCE_DIR) {
+                    bat 'python run-scripts'
+                    bat 'dir test1\\export'
                 }
             }
         }
