@@ -1,13 +1,11 @@
 from os import listdir, getcwd, mkdir
 from os.path import join
-from shutil import rmtree
 
-import csv
 import subprocess
 
 COMPASS_EXECUTABLE = "..\\..\\Compass(trunk)\\source\\com.proteinsimple.compass.e4.product\\target\\products\\compass\\win32\\win32\\x86_64\\Compass for SW.exe"
 # COMPASS_EXECUTABLE = "C:\\Program Files\\Compass for SW\\Compass for SW.exe"
-TEST_SUTIE = join(getcwd(), "compass-script-test-suite")
+TEST_SUTIE_PATH = join(getcwd(), "compass-script-test-suite")
 
 def runScripts():
     '''Takes in the directory of the test and run the tests in it'''
@@ -18,8 +16,8 @@ def runScripts():
 
 def getTestSuite():
     tests = {}
-    for test in listdir(TEST_SUTIE):
-        testAbsPath = join(TEST_SUTIE, test)
+    for test in listdir(TEST_SUTIE_PATH):
+        testAbsPath = join(TEST_SUTIE_PATH, test)
         tests[test] = testAbsPath
     return tests
 

@@ -33,8 +33,17 @@ pipeline {
         stage ('Python Script') {
             steps {
                 dir (SOURCE_DIR) {
+                    bat '.\\venv\\Scripts\\activate'
                     bat 'python run-scripts.py'
-                    bat 'dir compass-script-test-suite\\test1\\export'
+                    bat 'python -m pytest --junitxml results.xml run-tests.py'
+                }
+            }
+        }
+
+        stage ('Publish') {
+            steps {
+                script {
+                    junit SOURCE_DIR + '/*.xml'
                 }
             }
         }
