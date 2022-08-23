@@ -1,12 +1,12 @@
-from os import listdir, getcwd
+from os import listdir, getcwd, mkdir
 from os.path import join
 from shutil import rmtree
 
 import csv
 import subprocess
 
-COMPASS_EXECUTABLE = "..\\..\\Compass(trunk)\\source\\com.proteinsimple.compass.e4.product\\target\\products\\compass\\win32\\win32\\x86_64\\Compass for SW.exe"
-# COMPASS_EXECUTABLE = "C:\\Program Files\\Compass for SW\\Compass for SW.exe"
+# COMPASS_EXECUTABLE = "..\\..\\Compass(trunk)\\source\\com.proteinsimple.compass.e4.product\\target\\products\\compass\\win32\\win32\\x86_64\\Compass for SW.exe"
+COMPASS_EXECUTABLE = "C:\\Program Files\\Compass for SW\\Compass for SW.exe"
 TEST_SUTIE = join(getcwd(), "compass-script-test-suite")
 
 def runScripts():
@@ -25,7 +25,7 @@ def getTestSuite():
 
 def runScript(testDirectory):
     '''Run a test script'''
-
+    mkdir(join(testDirectory, "export"))
     tempScriptFile = getTempScriptFile(testDirectory)
 
     # Get the export by opening compass and run the script
