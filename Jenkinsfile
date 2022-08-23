@@ -33,8 +33,8 @@ pipeline {
         stage ('Python Script') {
             steps {
                 dir (SOURCE_DIR) {
-                    bat 'python run-scripts'
-                    bat 'dir test1\\export'
+                    bat 'python run-scripts.py'
+                    bat 'dir compass-script-test-suite\\test1\\export'
                 }
             }
         }
