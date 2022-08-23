@@ -33,19 +33,15 @@ pipeline {
         stage ('Python Script') {
             steps {
                 dir (SOURCE_DIR) {
-                    bat 'pip install pytest'
                     bat 'python run-scripts.py'
                     bat 'python -m pytest --junitxml results.xml run-tests.py'
                 }
             }
         }
-
-        stage ('Publish') {
-            steps {
-                script {
-                    junit SOURCE_DIR + '/*.xml'
-                }
-            }
+    }
+    post {
+        always {
+            junit SOURCE_DIR + '/*.xml'
         }
     }
 }
