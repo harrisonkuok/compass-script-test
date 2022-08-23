@@ -35,6 +35,7 @@ pipeline {
                 dir ('../Compass(trunk)/source/com.proteinsimple.compass.e4.product') {
                     bat 'dir'
                 }
+                error("try to fail something")
             }
         }
     }
