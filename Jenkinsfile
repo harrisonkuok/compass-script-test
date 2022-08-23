@@ -33,9 +33,10 @@ pipeline {
         stage ('Python Script') {
             steps {
                 dir (SOURCE_DIR) {
-                    bat '.\\venv\\Scripts\\activate'
-                    bat 'python run-scripts.py'
-                    bat 'python -m pytest --junitxml results.xml run-tests.py'
+                    bat 'pytest'
+                    // bat '.\\venv\\Scripts\\activate'
+                    // bat 'python run-scripts.py'
+                    // bat 'python -m pytest --junitxml results.xml run-tests.py'
                 }
             }
         }
